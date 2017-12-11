@@ -19,7 +19,7 @@ horizontalFlip = False				# True if the camera left/right needs to be flipped
 
 # Startup
 startupMode = 1						# Startup mode, use 1 for Race.py calling WaitForGo
-firstStraightOverride = True		# If True we will use FIRST_STRAIGHT mode after the start lights
+firstStraightOverride = False		# If True we will use FIRST_STRAIGHT mode after the start lights
 									# This will move straight ahead for the intervals below
 									# If False we will go to FOLLOW_TRACK directly instead
 firstStraightMin = 2.0				# Minimum number of seconds straight forward
