@@ -45,7 +45,7 @@ while True:
 	AimForLane(-1.0)
 	WaitForWaypoint(2)
 	AimForLane(-1.0)"""
-	MonsterMotors(100, 80)
+	#MonsterMotors(100, 80)
         WaitForWaypoint(4)
         #AimForLane(1.0)
 	Speed(80)
