@@ -48,16 +48,16 @@ lanes = 6							# Number of coloured lanes
 
 # Waypoint separations in meters
 #Distances for lap 1
-distanceBetweenWaypointsl1 = [		# The first distance is from the starting waypoint, #1
-        3.47, # Start to Turn 1
-        3.00, # Turn 1
-        2.00, # Straight 2
-        1.5, # Turn 2
-        2.95, # Turn 3
-        3.25, # Turn 4
-        1.70, # Straight 3
-        2.85, # Turn 5
-        2.40  # Turn 5 to Start
+distanceBetweenWaypoints1 = [		# The first distance is from the starting waypoint, #1 #updated from Sourceforge numbers
+	3.47, # Start to Turn 1
+	3.00, # Turn 1
+	2.00, # Straight 2
+	1.65, # Turn 2
+	2.95, # Turn 3
+	3.25, # Turn 4
+	1.70, # Straight 3
+	2.85, # Turn 5
+	2.40  # Turn 5 to Start
 ]
 
 #distances for all other laps because a more efficent route
@@ -162,19 +162,19 @@ targetTrackPosition = 0.0			# Target position on the track, 0 is the centre
 # Override system settings
 stuckIdenticalSeconds = 1.0			# Number of seconds with near identical frames before deciding we are stuck
 stuckIdenticalThreshold = 2.00		# Level at which two frames are seen as identical
-stuckOverrideSeconds = 1.0 #was1.5	# Number of seconds to reverse for when stuck
-stuckHuntSeconds = 0.6 #was0.8		# Number of seconds to hunt for the track after reversing when stuck
+stuckOverrideSeconds = 0.7 #was1.5	# Number of seconds to reverse for when stuck
+stuckHuntSeconds = 0.4 #was0.8		# Number of seconds to hunt for the track after reversing when stuck
 stuckDetectColourWidth = 0.5		# Position in the image along X to look for the track colour
 stuckDetectColourHeight = 0.9		# Position in the image along Y to look for the track colour
 flipDetectionSeconds = 0.3			# Number of seconds with frames which seem flipped before inverting movement
 flipDetectionThreshold = 8.00		# Minimum gain between the background and the track
 wrongWayThreshold = 5			# Number of wrong-way points before deciding to turn around
 wrongWaySpinSeconds = 0.8 #was 1.2			# Number of seconds to spin when the wrong way around
-overtakeThreshold = 35				# Number of unexpected points before deciding there is a robot in front
-overtakeLaneOffset = 1.0			# Lane shift away from the robot in front when overtaking
-overtakeDurationSeconds = 4.0	#was 5.0	# Number of seconds to overtake for
-overtakeBrakingSpeed = 0.7			# Speed percentage to slow down to when starting an overtake
-overtakeBrakingSeconds = 1.0		# Number of seconds to slow down when overtaking
+overtakeThreshold = 25		#was 35		# Number of unexpected points before deciding there is a robot in front
+overtakeLaneOffset = 2.0	#was 1.0 		# Lane shift away from the robot in front when overtaking
+overtakeDurationSeconds = 3.0	#was 5.0, then 4.0	# Number of seconds to overtake for
+overtakeBrakingSpeed = 0.6	#was 0.7		# Speed percentage to slow down to when starting an overtake
+overtakeBrakingSeconds = 1.0	# Number of seconds to slow down when overtaking
 
 
 # Traffic light settings
