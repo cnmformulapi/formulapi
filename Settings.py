@@ -48,7 +48,7 @@ lanes = 6							# Number of coloured lanes
 
 # Waypoint separations in meters
 #Distances for lap 1
-distanceBetweenWaypoints1 = [		# The first distance is from the starting waypoint, #1 #updated from Sourceforge numbers
+distanceBetweenWaypointsl1 = [		# The first distance is from the starting waypoint, #1 #updated from Sourceforge numbers
 	3.47, # Start to Turn 1
 	3.00, # Turn 1
 	2.00, # Straight 2
