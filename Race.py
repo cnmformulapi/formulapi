@@ -21,58 +21,33 @@ Speed(100)
 ### During the race ###
 # Keep going until we have fished all of the laps
 
-AimForLane(trackLane)
-WaitForWaypoint(2)
-AimForLane(trackLane)
-WaitForWaypoint(3)
-AimForLane(trackLane)
 while True:
 	
-	"""WaitForWaypoint(4)
-	AimForLane(0.0)
-	WaitForWaypoint(5)
-	AimForLane(1.0)
-	WaitForWaypoint(6)
-	AimForLane(-0.5)
-	WaitForDistance(1.25)
-        WaitForWaypoint(7)
-	AimForLane(-1.0)
-	WaitForWaypoint(8)
-	AimForLane(-1.0)
-	WaitForWaypoint(9)
-	AimForLane(-1.0)
-	WaitForWaypoint(1)
-	AimForLane(-1.0)
 	WaitForWaypoint(2)
-	AimForLane(-1.0)"""
-	#MonsterMotors(100, 80)
-        WaitForWaypoint(4)
-        #AimForLane(1.0)
-	Speed(80)
-        WaitForWaypoint(5)
-        #AimForLane(1.0)
-        WaitForWaypoint(6)
-        
-        #AimForLane(-2)
-        WaitForWaypoint(7)
-        
-	Speed(60 )       
 	AimForLane(-2.0)
-        WaitForWaypoint(8)
-        #AimForLane(-2.0)
-        WaitForWaypoint(9)
-        Speed(100) #strt away
-	#        
-	#AimForLane(-2.0)
-	WaitForWaypoint(0) 
-        WaitForWaypoint(1)      
-	AimForLane(-2.0)#bc why
-	
-        WaitForWaypoint(2)
-        AimForLane(-2.0)
-        Speed(90) #
+	Speed(100)
 	WaitForWaypoint(3)
-	AimForLane(0)
+	AimForLane(-2.0)
+	Speed(100)
+	WaitForWaypoint(4)
+	AimForLane(-3.0)
+	Speed(100)
+	WaitForWaypoint(5)
+	AimForLane(-3.0)
+	Speed(100)
+	WaitForWaypoint(6)
+	AimForLane(-2.0)
+	Speed(100)
+	WaitForWaypoint(7)
+	AimForLane(-2.0)
+	Speed(100)
+	WaitForWaypoint(8)
+	AimForLane(-3.0)
+	Speed(100)
+	WaitForWaypoint(9)
+	AimForLane(-3.0)
+	Speed(100)
+	WaitForWaypoint(1)
 	
         
 ### End of the race ###
