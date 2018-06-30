@@ -30,7 +30,7 @@ while True:
 	AimForLane(-2.0)
 	Speed(100)
 	WaitForWaypoint(4)
-	AimForLane(-3.0)
+	AimForLane(-2.0)
 	Speed(100)
 	WaitForWaypoint(5)
 	AimForLane(-3.0)
@@ -45,7 +45,7 @@ while True:
 	AimForLane(-3.0)
 	Speed(100)
 	WaitForWaypoint(9)
-	AimForLane(-3.0)
+	AimForLane(-2.0)
 	Speed(100)
 	WaitForWaypoint(1)
 	
