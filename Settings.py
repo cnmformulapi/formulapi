@@ -32,7 +32,7 @@ firstStraightMax = 4.0				# Maximum number of seconds straight forward
 
 # MonsterBorg movement details
 monsterSpeed = 1.44					# Speed the MonsterBorg moves at with 100% power in m/s
-monsterSpeedFullSteering = 0.0		# Speed the MonsterBorg moves at with 100% steering in m/s
+monsterSpeedFullSteering = 1.0		# Speed the MonsterBorg moves at with 100% steering in m/s
 
 # Adjustments used for the simulation
 simulationDrivePower = 1.0			# Speed multiplier for the simulation mode
