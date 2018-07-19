@@ -14,7 +14,7 @@ SaveImage(photo, 'Start-line')
 # Start logging what happens
 StartUserLog()
 #StartDetailedLog()
-# Wait for the go signal from the start/stop lights.
+# Wait for the go signal from the start/stop lights. 
 WaitForGo()
 # Go at max speed
 Speed(100)
@@ -48,8 +48,7 @@ while True:
 	AimForLane(0.0)
 	Speed(100)
 	WaitForWaypoint(1)
-	
-        
+	AimForLane(-1.0)
 ### End of the race ###
 # Save a finish-line image
 photo = GetLatestImage() # continue running just for a bit to ensure we've definately crossed the finish line!

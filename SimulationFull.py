@@ -21,7 +21,7 @@ import Globals
 import urllib2
 print 'Libraries loaded'
 
-simulationIP = '192.168.1.110'				# Address of the machine running the simulation
+simulationIP = '192.168.112.228'				# Address of the machine running the simulation
 simulationPort = 10000				# Port number used by the simulation
 frameLimiter = True
 
