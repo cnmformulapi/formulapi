@@ -32,7 +32,7 @@ firstStraightMax = 4.0				# Maximum number of seconds straight forward
 
 # MonsterBorg movement details
 monsterSpeed = 1.44					# Speed the MonsterBorg moves at with 100% power in m/s
-monsterSpeedFullSteering = 0.0		# Speed the MonsterBorg moves at with 100% steering in m/s
+monsterSpeedFullSteering = 1.0		# Speed the MonsterBorg moves at with 100% steering in m/s
 
 # Adjustments used for the simulation
 simulationDrivePower = 1.0			# Speed multiplier for the simulation mode
@@ -160,7 +160,7 @@ maxBadFrames = frameRate / 2		# Number of poor frames before stopping
 targetTrackPosition = 0.0			# Target position on the track, 0 is the centre
 
 # Override system settings
-stuckIdenticalSeconds = 1.0			# Number of seconds with near identical frames before deciding we are stuck
+stuckIdenticalSeconds = 0.8			# Number of seconds with near identical frames before deciding we are stuck
 stuckIdenticalThreshold = 2.00		# Level at which two frames are seen as identical
 stuckOverrideSeconds = 0.7 #was1.5	# Number of seconds to reverse for when stuck
 stuckHuntSeconds = 0.4 #was0.8		# Number of seconds to hunt for the track after reversing when stuck
@@ -173,8 +173,8 @@ wrongWaySpinSeconds = 0.8 #was 1.2			# Number of seconds to spin when the wrong 
 overtakeThreshold = 25		#was 35		# Number of unexpected points before deciding there is a robot in front
 overtakeLaneOffset = 2.0	#was 1.0 		# Lane shift away from the robot in front when overtaking
 overtakeDurationSeconds = 3.0	#was 5.0, then 4.0	# Number of seconds to overtake for
-overtakeBrakingSpeed = 0.6	#was 0.7		# Speed percentage to slow down to when starting an overtake
-overtakeBrakingSeconds = 1.0	# Number of seconds to slow down when overtaking
+overtakeBrakingSpeed = 0.5	#was 0.7		# Speed percentage to slow down to when starting an overtake
+overtakeBrakingSeconds = 1.5	# Number of seconds to slow down when overtaking
 
 
 # Traffic light settings
